@@ -1,1 +1,64 @@
+{box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
 
+.navbar {
+ width: 100%;
+ background-color: #555;
+ overflow: auto;
+ opacity: 0.6;
+}
+
+.navbar a {
+ float: left;
+ padding: 15px;
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+ width: 22%; /* Four links of equal widths */
+ text-align: center;
+}
+
+.navbar a:hover {
+ background-color: #000;
+}
+
+.navbar a.active {
+ background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+ .navbar a {
+   float: none;
+   display: block;
+   width: 100%;
+   text-align: left;
+ }
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#000;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+
+ }
+ .class{font-size:20px;
+     margin-top: 5px;
+
+ }
+ .class1{font-size:30px;
+    margin-top: 20px;
+    margin:0 15px;
+
+}
+
+.body{
+background-image:url('../Smile.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
